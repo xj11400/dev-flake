@@ -1,0 +1,45 @@
+{
+  "nodes": {
+    "flake-lib": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1767179538,
+        "narHash": "sha256-bVDW5D8p22qjdYZhyDG0IxI5eUa7lXd/QSq5sRvhtmM=",
+        "path": "/Users/xjhsu/Project/nix/flake/flake-lib",
+        "type": "path"
+      },
+      "original": {
+        "path": "/Users/xjhsu/Project/nix/flake/flake-lib",
+        "type": "path"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1766902085,
+        "narHash": "sha256-coBu0ONtFzlwwVBzmjacUQwj3G+lybcZ1oeNSQkgC0M=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "c0b0e0fddf73fd517c3471e546c0df87a42d53f4",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "flake-lib": "flake-lib",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
